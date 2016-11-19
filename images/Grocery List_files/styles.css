@@ -17,24 +17,17 @@
   ul li {
       cursor: pointer;
       position: relative;
-      padding: 10px 5px 10px 50px;
+      padding: 20px 5px 30px 50px;
+      background: #eee;
       font-size: 20px;
   }
   
-  ul li:nth-child(odd) {
-      background: ghostwhite;
-  }
-  
-  ul li:nth-child(even) {
-      background: navajowhite;
-  }
-  
   ul li:hover {
-      background: yellow;
+      background: lightslategray;
   }
   
   .header {
-      background-color: navajowhite;
+      background-color: deepskyblue;
       padding: 20px;
       color: white;
       text-align: center;
