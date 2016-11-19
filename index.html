@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+        body {
+            margin: 100px 400px;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            display: block;
+            color: forestgreen;
+            padding: 15px;
+            text-decoration: none;
+        }
+        
+        ul li {
+            cursor: pointer;
+            position: relative;
+            padding: 12px 8px 12px 40px;
+            background: #eee;
+            font-size: 20px;
+            transition: 0.9s;
+        }
+        
+        ul li:hover {
+            background: lightslategray;
+        }
+        
+        .header {
+            background-color: deepskyblue;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body background="./images/stones-background.jpg">
+    <div id="myDIV" class="header">
+        <img src="./images/logos.jpg" alt="Mountain View" style="width:50px;height:50px;">
+        <h2 style="margin:5px">GROCERY LIST</h2>
+    </div>
+    <div>
+        <ul id="myUL">
+            <li>Figs</li>
+            <li>Pine Nuts</li>
+            <li>Honey</li>
+            <li>Eggs</li>
+            <li>Nutella</li>
+            <li>Buy</li>
+        </ul>
+    </div>
+</body>
+
+</html>
