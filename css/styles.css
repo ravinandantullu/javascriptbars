@@ -40,15 +40,11 @@
       text-align: center;
   }
   
-  .close {
+  .remove {
       position: absolute;
       right: 0;
       top: 0;
-      padding: 12px 16px 12px 16px;
-      transition-duration: 0.9s;
-  }
-  
-  .close:hover {
-      color: white;
-      transition-duration: 0.9s;
+      padding: 15px;
+      background: none;
+      border: none;
   }
