@@ -30,12 +30,25 @@
   }
   
   ul li:hover {
-      background: yellow;
+      background: darkred;
   }
   
-  .header {
+  .logo {
       background-color: navajowhite;
       padding: 20px;
       color: white;
       text-align: center;
+  }
+  
+  .close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px 12px 16px;
+      transition-duration: 0.9s;
+  }
+  
+  .close:hover {
+      color: white;
+      transition-duration: 0.9s;
   }
