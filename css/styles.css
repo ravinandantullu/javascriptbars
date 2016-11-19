@@ -15,7 +15,6 @@
   }
   
   ul li {
-      cursor: pointer;
       position: relative;
       padding: 10px 5px 10px 50px;
       font-size: 20px;
@@ -42,6 +41,7 @@
   
   .remove {
       position: absolute;
+      cursor: pointer;
       right: 0;
       top: 0;
       padding: 15px;
